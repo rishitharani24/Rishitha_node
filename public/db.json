@@ -1,0 +1,70 @@
+{"books":[
+  {
+    "id": 1,
+    "Job_Title": "Engineering Development Group Internship",
+    "Company_Name": "MathWorks",
+    "Location": "Natick-MA-US",
+    "Job_Type": "Internship",
+    "Salary_Range": "$55/hr",
+    "Job_Category": "Computer Science Internship",
+    "Application_Deadline": "05-12-2025",
+    "Application_Link": "https://www.mathworks.com/company/jobs/opportunities/25610-multiple-openings-engineering-development-group-internship.html?source=14343&s_eid=rcj_14343"
+  },
+  {
+    "id": 2,
+    "Job_Title": "Entry Level Software Engineer",
+    "Company_Name": "BAE Systems, Inc.",
+    "Location": "Greenlawn, NY, US",
+    "Job_Type": "Full-time",
+    "Salary_Range": "$69.4K/yr - $118K/yr",
+    "Job_Category": "Entry-level Computer Science",
+    "Application_Deadline": "05-12-2025",
+    "Application_Link": "https://jobs.baesystems.com/global/en/job/BAE1US110021BREXTERNAL/Entry-Level-Software-Engineer?utm_source=linkedin&utm_medium=phenom-feeds"
+  },
+  {
+    "id": 3,
+    "Job_Title": "Adobe Experience Platform (AEP) Developer",
+    "Company_Name": "New York Technology Partners",
+    "Location": "Alpharetta, GA or NY",
+    "Job_Type": "Contract",
+    "Salary_Range": "$75/hr - $80/hr",
+    "Job_Category": "Adobe Experience Platform (AEP) / Data Engineering / Software Development",
+    "Application_Deadline": "05-16-2025",
+    "Application_Link": "https://www.linkedin.com/jobs/view/4198271672/?alternateChannel=search&refId=j%2BQwx%2FW%2BAvFhSywtCkrT4w%3D%3D&trackingId=OyfSxRvCflD%2FbiMU7znZTg%3D%3D"
+  },
+  
+  {
+    "id": 4,
+    "Job_Title": "Salesforce Specialist Senior",
+    "Company_Name": "Deloitte",
+    "Location": "Atlanta, GA, US",
+    "Job_Type": "Full-time",
+    "Salary_Range": "$131.2K/yr - $218.6K/yr",
+    "Job_Category": "Salesforce Consultant / CRM Solutions / Cloud Development",
+    "Application_Deadline": "05-15-2025",
+    "Application_Link": "https://apply.deloitte.com/careers/InviteToApply?jobId=181095&source=LinkedIn"
+  },
+  {
+    "id": 5,
+    "Job_Title": "Entry Level Healthcare IT Analyst",
+    "Company_Name": "Optimum Healthcare IT",
+    "Location": "US",
+    "Job_Type": "Remote",
+    "Salary_Range": "$50K/yr",
+    "Job_Category": "Healthcare IT / Health Informatics",
+    "Application_Deadline": "05-29-2025",
+    "Application_Link": "https://www.linkedin.com/jobs/view/4189972417/?alternateChannel=search&refId=S4508NXy5Mz9kucvYPscXw%3D%3D&trackingId=R7zHj6ZINUaB1LmSpUxBfQ%3D%3D"
+  },
+  {
+    "id": 6,
+    "Job_Title": "Analyst",
+    "Company_Name": "Tata Consultancy Services",
+    "Location": "Boise, ID, US",
+    "Job_Type": "Full-time",
+    "Salary_Range": "$60K/yr - $80K/yr",
+    "Job_Category": "Software Testing / QA Automation",
+    "Application_Deadline": "05-12-2025",
+    "Application_Link": "https://ibegin.tcs.com/iBegin/jobs/356466J"
+  }
+  
+]}
