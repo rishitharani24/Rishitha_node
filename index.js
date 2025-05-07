@@ -1,4 +1,3 @@
-
 const http = require("http");
 const path = require("path");
 const fs = require("fs");
@@ -42,8 +41,9 @@ const server = http.createServer(async (req, res) => {
             console.log("MongoDB connection established");
             const cursor = client.db("jobfinder_db").collection("jobs").find({});
             const results = await cursor.toArray();
-            console.log(results);
-
+            console.log(JSON.stringify(results, (key, value) =>
+                typeof value === "object" && value !== null && value._bsontype === "ObjectId"? value.toString(): value, 2));
+              
             res.writeHead(200, headers);
             res.end(JSON.stringify(results, null, 2));
         } catch (e) {
