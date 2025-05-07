@@ -7,258 +7,287 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         body {
-        font-family: Arial, sans-serif;
-        background-color: #ecf0f1;
+            font-family: Arial, sans-serif;
+            background-color: #ecf0f1;
         }
 
         .container {
-        display: Grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.2fr auto 0.2fr; 
-        grid-template-areas: 
-            "nav nav nav nav"
-            "profile skills skills skills"
-            "about about about about"
-            "education education education education"
-            "experience experience experience experience"
-            "projects projects projects projects"
-            "certifications certifications blogs blogs"
-            "footer footer footer footer";
-        gap: 20px;
-        max-width: 1200px;
-        margin: 0 auto; 
-        background-color: #ffffff;
+            display: Grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 0.2fr auto 0.2fr; 
+            grid-template-areas: 
+                "nav nav nav nav"
+                "profile skills skills skills"
+                "about about about about"
+                "education education education education"
+                "experience experience experience experience"
+                "projects projects projects projects"
+                "certifications certifications blogs blogs"
+                "footer footer footer footer";
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto; 
+            background-color: #ffffff;
+        }
+        * {
+            box-sizing: border-box;
         }
 
+
         #nav, #about, #education, #experience, #projects, #footer {
-        padding: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
+            padding: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
 
         #profile, #skills, #certifications, #blogs{
-        padding: 20px;
+            padding: 20px;
         }
         #certifications h2, #blogs h2, #about h2, #skills h2, #education h2, #experience h2, #projects h2,footer h3 {
-        margin-top: 0;
-        padding-top: 0;
+            margin-top: 0;
+            padding-top: 0;
         }
 
         #about:target, #skills:target, #education:target, #experience:target, #projects:target, #certifications:target, #blogs:target, #contact:target {
-        background-color: #1395e6;
+            background-color: #1395e6;
         }
 
+
         nav {
-        grid-area: nav;
-        background-color: #001F3F;
-        text-align: center;
-        padding: 5px;
-        margin-left: 74px;
-        margin-right: 74px;
-        font-size: 1.2em;
+            grid-area: nav;
+            background-color: #001F3F;
+            text-align: center;
+            padding: 5px;
+            font-size: 1.2em;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
         }
         .nav a {
-        display: inline-block;
-        color: #fff;
-        padding: 10px;
-        text-decoration: underline;
+            display: inline-block;
+            color: #fff;
+            padding: 10px;
+            text-decoration: underline;
         }
         .nav a:hover {
-        background-color: #b1abab;
-        color: #1B1B2A;
-        border-radius: 5px;
+            background-color: #b1abab;
+            color: #1B1B2A;
+            border-radius: 5px;
         }
         .nav-menu .icon {
-        display: none;
+            display: none;
         }
         #profile {
-        grid-area: profile;
-        text-align: center;
-        background: #F2F2F2;
-        color: #00274D;
-        margin-left: 20px;
+            grid-area: profile;
+            text-align: center;
+            background: #F2F2F2;
+            color: #00274D;
+            margin-left: 20px;
         }
         #profile img {
-        width: 150px;
-        height: 150px;
+            width: 150px;
+            height: 150px;
         }
         #profile h3 {
-        margin-top: 10px;
-        margin-bottom: 5px;
-        font-weight: 2em;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: 2em;
         }
         #profile h4 {
-        margin: 0;
-        font-weight: 1.5em;
+            margin: 0;
+            font-weight: 1.5em;
         }
         #skills {
-        grid-area: skills;
-        background: #0f5103;
-        color: #F5F5DC;
-        margin-right: 20px;
+            grid-area: skills;
+            background: #0f5103;
+            color: #F5F5DC;
+            margin-right: 20px;
         }
         #about {
-        grid-area: about;
-        background-color: #F5F5F5;
-        color: #1A1A1A;
+            grid-area: about;
+            background-color: #F5F5F5;
+            color: #1A1A1A;
         }
         #education {
-        grid-area: education;
-        background: #470188;
-        color: #FFF4CC;
+            grid-area: education;
+            background: #470188;
+            color: #FFF4CC;
         }
         .educationarea, .university{
-        margin-left: 20px;
+            margin-left: 20px;
         }
         #education p{
-        margin-left: 40px;
+            margin-left: 40px;
         }
         .info {
-        display: grid;
-        grid-template-columns: 1fr auto;
-        grid-gap: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
+            display: grid;
+            grid-template-columns: 1fr auto;
+            grid-gap: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
         }
         .university {
-        grid-column: 1;
+            grid-column: 1;
         }
         .year {
-        grid-column: 2;
-        text-align: right;
+            grid-column: 2;
+            text-align: right;
         }
         #experience {
-        grid-area: experience;
-        background: #005F5F;
-        color: #FAFAFA;
-        padding: 20px;
+            grid-area: experience;
+            background: #005F5F;
+            color: #FAFAFA;
+            padding: 20px;
         }
         .experience-box-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        margin-top: 15px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-top: 15px;
         }
         .experience-box {
-        background-color: #F2F2F2;
-        color: #00274D;
-        padding: 15px;
-        border-radius: 5px;
+            background-color: #F2F2F2;
+            color: #00274D;
+            padding: 15px;
+            border-radius: 5px;
         }
         #projects {
-        grid-area: projects;
-        background-color: #4169E1;
-        color: #FFFDD0;
+            grid-area: projects;
+            background-color: #4169E1;
+            color: #FFFDD0;
         }
         .project-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 20px;
-        justify-content: center;
-        text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 20px;
+            justify-content: center;
+            text-align: center;
         }
         .project-card {
-        background: #FFFFFF;
-        color: #333333;
-        padding: 15px;
+            background: #FFFFFF;
+            color: #333333;
+            padding: 15px;
         }
         .project-card img {
-        width: 50%;
-        height: auto;
+            width: 50%;
+            height: auto;
         }
         .view-more {
-        background-color: blue;
-        color: white;
-        padding: 10px;
-        cursor: pointer;
-        border: none;
-        border-radius: 5px;
+            background-color: blue;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
         }
         .view-more:hover {
-        background-color: green;
+            background-color: green;
         }
         #certifications {
-        grid-area: certifications;
-        background-color: #a30303;
-        color: #FFFFFF;
-        padding: 20px;
-        margin-left: 20px;
+            grid-area: certifications;
+            background-color: #a30303;
+            color: #FFFFFF;
+            padding: 20px;
+            margin-left: 20px;
         }
         #certifications h2{
-        text-align: center;
+            text-align: center;
         }
         #certifications p{
-        background-color: #E0E0E0;
+            background-color: #E0E0E0;
         }
         #blogs {
-        grid-area: blogs;
-        background-color: #a30303;
-        color: #FFFFFF;
-        padding: 20px;
-        margin-right: 20px;
+            grid-area: blogs;
+            background-color: #a30303;
+            color: #FFFFFF;
+            padding: 20px;
+            margin-right: 20px;
         }
         #blogs h2 {
-        text-align: center;
-        padding-top: 0px;
+            text-align: center;
+            padding-top: 0px;
         }
         .blog-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
         }
         .blog-box {
-        background: #FFF4CC;
-        padding: 10px;
-        border-radius: 3px;
-        text-align: center;
-        box-sizing: border-box;
-        height: 130px;
-        color: #4D0000;
+            background: #FFF4CC;
+            padding: 10px;
+            border-radius: 3px;
+            text-align: center;
+            box-sizing: border-box;
+            height: 150px;
+            color: #4D0000;
         }
         .blog-box img {
-        width: 50px;
-        height: 40px;
-        padding: 5px;
+            width: 50px;
+            height: 40px;
+            padding: 5px;
         }
         .blog-box h3 {
-        margin-top: 5px;
-        margin-bottom: 2px;
+            margin-top: 5px;
+            margin-bottom: 2px;
         }
         .blog-box p {
-        margin: 0;
-        height: 60%;
+            margin: 0;
+            height: 60%;
         }
         footer {
-        grid-area: footer;
-        margin-left: 74px;
-        margin-right: 36px;
-        height: 50px;
-        background-color: #0d0808;
-        color: #FFD700;
-        height: 80px;
-        width: 100%;
-        max-width: 1200px;
+            grid-area: footer;
+            height: 50px;
+            background-color: #0d0808;
+            color: #FFD700;
+            height: 80px;
+            max-width: 1200px;
+            width: 100%;
+            margin: 0px auto;
         }
         .contact-icons {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 5px;
-        justify-items: center;
-        padding-left: 50px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+            justify-items: center;
+            padding-left: 50px;
         }
         footer#contact h3 {
-        margin: 0;
-        font-size: 1.5em;
-        padding-top: 10px;
-        margin-left: 20px;
+            margin: 0;
+            font-size: 1.5em;
+            padding-top: 10px;
+            margin-left: 20px;
         }
         .contact-icons a img {
-        width: 30px;
-        height: 30px;
+            width: 30px;
+            height: 30px;
         }
         .contact-icons a img:hover {
-        transform: scale(1.2);
+            transform: scale(1.2);
         }
+
+        @media screen and (min-width: 501px) and (max-width: 700px) {
+        #blogs {
+            width: 100%;
+            padding: 10px;
+            align-items: center;
+        }
+        .blog-box{
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .blog-box h3 {
+            font-size:16px;
+        }
+        .blog-box p {
+            font-size:14px;
+        }
+        .project-grid {
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        }
+
 
         @media (max-width: 500px) {
         .container {
@@ -274,19 +303,21 @@
                 "certifications"
                 "blogs"
                 "footer";
+            grid-template-columns: 1fr;
             margin: 0px;
         }
 
-        #profile, #skills, #about, #education, #experience, #projects, #certifications, #blogs{
-            width: 400px;
+        #profile, #skills, #about, #education, #experience, #projects, #certifications{
             align-items: center;
-            margin-left: 15px;
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+            box-sizing: border-box;
         }
 
         .nav-menu {
             grid-template-columns: 1fr;
-            width: 95%;
-            margin-left: 10px;
+            width: 98%;
         }
         .nav-menu a {
             display: none;
@@ -312,15 +343,22 @@
         p, li {
             font-size: 13px;
         }
+        .experience-box-container {
+            grid-template-columns: 1fr;
+            padding: 10px;
+        }
+
+        .experience-box {
+            width: 100%;
+        }
         .project-grid {
             grid-template-columns: 1fr;
             gap: 10px;
         }
-
         .project-card {
             width: 80%;
             margin: 0 auto;
-            height: 200px;
+            height: 220px;
             padding: 10px;
             border-radius: 2px;
         }
@@ -334,11 +372,23 @@
 
         .project-card h3,
         .project-card p {
+
             text-align: center;
             margin-top: 0px;
             margin-bottom: 5px;
         }
+
+        .view-more{
+            padding-bottom: 6px;
         }
+        #blogs{
+            width: 100%;
+        }
+        .blog-box{
+            height: 100px;
+        }
+        }
+            
   
     </style>
 </head>
