@@ -1,70 +1,76 @@
-{"books":[
-  {
-    "id": 1,
-    "Job_Title": "Engineering Development Group Internship",
-    "Company_Name": "MathWorks",
-    "Location": "Natick-MA-US",
-    "Job_Type": "Internship",
-    "Salary_Range": "$55/hr",
-    "Job_Category": "Computer Science Internship",
-    "Application_Deadline": "05-12-2025",
-    "Application_Link": "https://www.mathworks.com/company/jobs/opportunities/25610-multiple-openings-engineering-development-group-internship.html?source=14343&s_eid=rcj_14343"
-  },
-  {
-    "id": 2,
-    "Job_Title": "Entry Level Software Engineer",
-    "Company_Name": "BAE Systems, Inc.",
-    "Location": "Greenlawn, NY, US",
-    "Job_Type": "Full-time",
-    "Salary_Range": "$69.4K/yr - $118K/yr",
-    "Job_Category": "Entry-level Computer Science",
-    "Application_Deadline": "05-12-2025",
-    "Application_Link": "https://jobs.baesystems.com/global/en/job/BAE1US110021BREXTERNAL/Entry-Level-Software-Engineer?utm_source=linkedin&utm_medium=phenom-feeds"
-  },
-  {
-    "id": 3,
-    "Job_Title": "Adobe Experience Platform (AEP) Developer",
-    "Company_Name": "New York Technology Partners",
-    "Location": "Alpharetta, GA or NY",
-    "Job_Type": "Contract",
-    "Salary_Range": "$75/hr - $80/hr",
-    "Job_Category": "Adobe Experience Platform (AEP) / Data Engineering / Software Development",
-    "Application_Deadline": "05-16-2025",
-    "Application_Link": "https://www.linkedin.com/jobs/view/4198271672/?alternateChannel=search&refId=j%2BQwx%2FW%2BAvFhSywtCkrT4w%3D%3D&trackingId=OyfSxRvCflD%2FbiMU7znZTg%3D%3D"
-  },
-  
-  {
-    "id": 4,
-    "Job_Title": "Salesforce Specialist Senior",
-    "Company_Name": "Deloitte",
-    "Location": "Atlanta, GA, US",
-    "Job_Type": "Full-time",
-    "Salary_Range": "$131.2K/yr - $218.6K/yr",
-    "Job_Category": "Salesforce Consultant / CRM Solutions / Cloud Development",
-    "Application_Deadline": "05-15-2025",
-    "Application_Link": "https://apply.deloitte.com/careers/InviteToApply?jobId=181095&source=LinkedIn"
-  },
-  {
-    "id": 5,
-    "Job_Title": "Entry Level Healthcare IT Analyst",
-    "Company_Name": "Optimum Healthcare IT",
-    "Location": "US",
-    "Job_Type": "Remote",
-    "Salary_Range": "$50K/yr",
-    "Job_Category": "Healthcare IT / Health Informatics",
-    "Application_Deadline": "05-29-2025",
-    "Application_Link": "https://www.linkedin.com/jobs/view/4189972417/?alternateChannel=search&refId=S4508NXy5Mz9kucvYPscXw%3D%3D&trackingId=R7zHj6ZINUaB1LmSpUxBfQ%3D%3D"
-  },
-  {
-    "id": 6,
-    "Job_Title": "Analyst",
-    "Company_Name": "Tata Consultancy Services",
-    "Location": "Boise, ID, US",
-    "Job_Type": "Full-time",
-    "Salary_Range": "$60K/yr - $80K/yr",
-    "Job_Category": "Software Testing / QA Automation",
-    "Application_Deadline": "05-12-2025",
-    "Application_Link": "https://ibegin.tcs.com/iBegin/jobs/356466J"
-  }
-  
-]}
+{
+  "joblistings": [
+      {
+        "id": 1,
+        "name": "Engineering Development Group Internship",
+        "company": "MathWorks",
+        "location": "Natick-MA-US",
+        "type": "Internship",
+        "salary": "$55/hr",
+        "category": "Computer Science",
+        "deadline": "05-12-2025",
+        "apply_link": "https://www.mathworks.com/company/jobs/opportunities/25610-multiple-openings-engineering-development-group-internship.html?source=14343&s_eid=rcj_14343",
+        "image": "https://seekvectorlogo.net/wp-content/uploads/2020/03/mathworks-vector-logo.png"
+      },
+      {
+        "id": 2,
+        "name": "Entry Level Software Engineer",
+        "company": "BAE Systems, Inc.",
+        "location": "Greenlawn, NY, US",
+        "type": "Full-time",
+        "salary": "$69.4K/yr - $118K/yr",
+        "category": "Computer Science",
+        "deadline": "05-12-2025",
+        "apply_link": "https://www.linkedin.com/jobs/view/4151541165/?alternateChannel=search&refId=Vu3itBIx1J7KxMKSvWD%2BaA%3D%3D&trackingId=7rr5JDodIs798k0fMDTqhg%3D%3D",
+        "image": "https://ngam.org/wp-content/uploads/2018/05/BAE-logo_INSPIRED.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Senior EPM Developer",
+        "company": "New York Technology Partners",
+        "location": "Malvern, PA",
+        "type": "Contract",
+        "salary": "$80/hr - $120/hr",
+        "category": "Information Technology",
+        "deadline": "05-16-2025",
+        "apply_link": "https://www.linkedin.com/jobs/view/4223910778/?alternateChannel=search&refId=GiTql4UmHI47EFWXyOHkJQ%3D%3D&trackingId=%2BLZ%2BsxUlEtYRSfprXXWlXA%3D%3D",
+        "image": "https://media.licdn.com/dms/image/v2/C4D0BAQHDKWHx36SB2Q/company-logo_200_200/company-logo_200_200/0/1630569042627/new_york_technology_partners_logo?e=2147483647&v=beta&t=qABIEXLMDg365nHWIml0y7THT65A8UWH1A5DYu3eS7I"
+      },
+      {
+        "id": 4,
+        "name": "Automation Software Engineer",
+        "company": "Deloitte",
+        "location": "Baltimore, MD, US",
+        "type": "Full-time",
+        "salary": "$131.2K/yr - $218.6K/yr",
+        "category": "Software Development ",
+        "deadline": "05-15-2025",
+        "apply_link": "https://www.linkedin.com/jobs/view/4188879488/?alternateChannel=search&refId=pZRV39qP78Hhrhhk3FevcQ%3D%3D&trackingId=DZvGrEa%2Fkk6aRUo6e1fj8A%3D%3D",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAI5b0dd2gKoQBBt9dkWH42lhrKJPRW0VsUQ&s"
+      },
+      {
+        "id": 5,
+        "name": "Entry Level Healthcare IT Analyst",
+        "company": "Optimum Healthcare IT",
+        "location": "Dallas, TX",
+        "type": "Remote",
+        "salary": "$50K/yr",
+        "category": "Health Informatics",
+        "deadline": "05-29-2025",
+        "apply_link": "https://www.linkedin.com/jobs/view/4213924628/?alternateChannel=search&refId=ZNdlf9PP3BmZkGoHPcKW7A%3D%3D&trackingId=BWpjcTT%2BbH1S931VmpTOiw%3D%3D",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoSf_18OTNVmISI6aIXBtvSXnCi9mXfXx_Nw&s"
+      },
+      {
+        "id": 6,
+        "name": "Analyst",
+        "company": "Tata Consultancy Services",
+        "location": "Boise, ID, US",
+        "type": "Full-time",
+        "salary": "$60K/yr - $80K/yr",
+        "category": "Data Engineering",
+        "deadline": "06-03-2025",
+        "apply_link": "https://ibegin.tcs.com/iBegin/jobs/356466J",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTPAWYqoR1E-YMPwd869I0X2WuToOjTrPXgQ&s"
+      }
+    ]
+}
